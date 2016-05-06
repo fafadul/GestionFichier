@@ -24,6 +24,17 @@ public class Main {
 			}
 			
 		}
+		
+		//Suggest to create 2 levels of sub folders
+		Scanner sc2 = new Scanner(System.in);
+		System.out.println(" Do you want to create 2 new sub folders ? ");
+		String strFold = new String (sc2.nextLine());
+		if (strFold.equals("yes")){
+			System.out.println("Ok");
+		}
+		else {
+			System.out.println("Bye");
+		}
 }
 }
 
